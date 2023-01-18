@@ -1,0 +1,38 @@
+{
+  "name": "@colsen1991/ngx-translate-extract-marker",
+  "description": "Function, pipe and directive to manually mark strings to be extracted using ngx-translate-extract",
+  "version": "2.0.3",
+  "engines": {
+    "node": "~16.17.0",
+    "npm": "~8.15.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colsen1991/ngx-translate-extract-marker.git"
+  },
+  "author": "Kim Biesbjerg <kim@biesbjerg.com>",
+  "maintainers": [
+    "Christer Olsen <colsen1991@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colsen1991/ngx-translate-extract-marker/issues"
+  },
+  "homepage": "https://github.com/colsen1991/ngx-translate-extract-marker",
+  "keywords": [
+    "angular",
+    "ngx-translate",
+    "ngx-translate-extract",
+    "i18n"
+  ],
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0"
+  }
+}

@@ -1,19 +1,13 @@
 # ngx-translate-extract-marker
 This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjerg), but as far as I can tell the original library is unfortunately no longer being developed
 
-<p style="color: red; font-weight: bold;">
-  PLEASE NOTE: The marker pipe and directive is "ahead of its time", so to speak. 
-  Meaning ngx-translate-extract does not support them yet, but a <a href="https://github.com/bartholomej/ngx-translate-extract/pull/7" target="_blank">pull request</a> is awaiting approval/merge.
-</p>
-
 ## Installation
 `$ npm install @colsen1991/ngx-translate-extract-marker`
 
 ### Important notice
-The marker pipe and directive is not supported in Kim's ngx-translate-extract package. 
-Please use [Bartholomej's package](https://github.com/bartholomej/ngx-translate-extract) instead: `$ npm install @bartholomej/ngx-translate-extract`.
+The marker pipe and directive is not supported in Kim's ngx-translate-extract package.
+Please use [my fork](https://github.com/colsen1991/ngx-translate-extract) instead: `$ npm install @colsen1991/ngx-translate-extract`.
 
-Version `^8.0.3` of this package is required (to be released).
 
 ## Mark strings for extraction using the marker function
 If, for some reason, you want to extract strings not passed directly to `ngx-translate/TranslateService`'s `get()`, `instant()` or `stream()` methods, you can wrap them in a custom marker function to let `ngx-translate-extract` know you want to extract them.

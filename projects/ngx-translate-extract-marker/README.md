@@ -1,4 +1,4 @@
-~~# ngx-translate-extract-marker
+# ngx-translate-extract-marker
 This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjerg), but as far as I can tell the original library is unfortunately no longer being developed
 
 ## Installation
@@ -83,4 +83,4 @@ export class YourModule {}
 See [ngx-translate-extract](https://github.com/colsen1991/ngx-translate-extract) and [ngx-translate](https://github.com/ngx-translate/core) for more details.
 
 ## Credits
-Original library, idea and code: [@biesbjerg/ngx-translate-extract-marker](https://github.com/biesbjerg/ngx-translate-extract-marker) ❤️~~
+Original library, idea and code: [@biesbjerg/ngx-translate-extract-marker](https://github.com/biesbjerg/ngx-translate-extract-marker) ❤️

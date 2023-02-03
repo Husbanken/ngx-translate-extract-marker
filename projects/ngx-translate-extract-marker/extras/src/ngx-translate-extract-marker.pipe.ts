@@ -4,7 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'marker'
 })
 export class MarkerPipe implements PipeTransform {
-  transform(key: unknown): unknown {
+  transform<T extends string | string[]>(key: T): T {
     return key;
   }
 }

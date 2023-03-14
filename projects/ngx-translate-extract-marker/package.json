@@ -1,5 +1,5 @@
 {
-  "name": "@colsen1991/ngx-translate-extract-marker",
+  "name": "@vendure/ngx-translate-extract-marker",
   "description": "Function, pipe and directive to manually mark strings to be extracted using ngx-translate-extract",
   "version": "2.0.7",
   "engines": {
@@ -11,17 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colsen1991/ngx-translate-extract-marker.git"
+    "url": "https://github.com/vendure-ecommerce/ngx-translate-extract-marker.git"
   },
   "author": "Kim Biesbjerg <kim@biesbjerg.com>",
-  "maintainers": [
-    "Christer Olsen <colsen1991@gmail.com>"
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/colsen1991/ngx-translate-extract-marker/issues"
+    "url": "https://github.com/vendure-ecommerce/ngx-translate-extract-marker/issues"
   },
-  "homepage": "https://github.com/colsen1991/ngx-translate-extract-marker",
+  "homepage": "https://github.com/vendure-ecommerce/ngx-translate-extract-marker",
   "keywords": [
     "angular",
     "ngx-translate",

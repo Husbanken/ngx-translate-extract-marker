@@ -80,7 +80,8 @@ export class YourModule {}
 ```
 
 ## ngx-translate-extract
-See [ngx-translate-extract](https://github.com/colsen1991/ngx-translate-extract) and [ngx-translate](https://github.com/ngx-translate/core) for more details.
+See [ngx-translate-extract](https://github.com/vendure-ecommerce/ngx-translate-extract) and [ngx-translate](https://github.com/ngx-translate/core) for more details.
+
 
 ## Credits
 Original library, idea and code: [@biesbjerg/ngx-translate-extract-marker](https://github.com/biesbjerg/ngx-translate-extract-marker) ❤️

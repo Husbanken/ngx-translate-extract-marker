@@ -6,7 +6,7 @@ This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjer
 
 ### Important notice
 The marker pipe and directive is not supported in Kim's ngx-translate-extract package.
-Please use [my fork](https://github.com/colsen1991/ngx-translate-extract) instead: `$ npm install @colsen1991/ngx-translate-extract`.
+Please use [Vendure's](https://github.com/colsen1991/ngx-translate-extract) instead: `$ npm install @colsen1991/ngx-translate-extract`.
 
 
 ## Mark strings for extraction using the marker function
@@ -39,8 +39,16 @@ Import and use the marker pipe in your `@NgModule`:
 import { MarkerPipe } from '@colsen1991/ngx-translate-extract-marker/extras';
 
 @NgModule({ declarations: [MarkerPipe] })
-export class YourModule {
-}
+export class YourModule {}
+```
+
+Or use the standalone pipe in your standalone component (**careful not to use both methods**):
+
+```ts
+import { MarkerPipeStandalone } from '@colsen1991/ngx-translate-extract-marker/extras';
+
+@Component({ imports: [MarkerPipeStandalone], standalone: true })
+export class StandaloneComponent {}
 ```
 
 Then mark strings in your templates:
@@ -61,6 +69,14 @@ import { MarkerDirective } from '@colsen1991/ngx-translate-extract-marker/extras
 export class YourModule {}
 ```
 
+Or use the standalone directive in your standalone component (**careful not to use both methods**):
+
+```ts
+import { MarkerDirectiveStandalone } from '@colsen1991/ngx-translate-extract-marker/extras';
+
+@NgModule({ imports: [MarkerDirectiveStandalone], standalone: true })
+export class StandaloneComponent {}
+```
 Then mark strings in your templates:
 
 ```angular2html

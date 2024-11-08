@@ -8,3 +8,13 @@ export class MarkerPipe implements PipeTransform {
     return key;
   }
 }
+
+@Pipe({
+  name: 'marker',
+  standalone: true
+})
+export class MarkerPipeStandalone implements PipeTransform {
+  transform<T extends string | string[]>(key: T): T {
+    return key;
+  }
+}

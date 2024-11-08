@@ -1,11 +1,7 @@
 {
   "name": "@colsen1991/ngx-translate-extract-marker",
   "description": "Function, pipe and directive to manually mark strings to be extracted using ngx-translate-extract",
-  "version": "2.0.8",
-  "engines": {
-    "node": ">=16",
-    "npm": ">=8"
-  },
+  "version": "3.0.0",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -32,7 +28,7 @@
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
-    "@angular/common": ">=13.0.0",
-    "@angular/core": ">=13.0.0"
+    "@angular/common": ">=14.2.0",
+    "@angular/core": ">=14.2.0"
   }
 }

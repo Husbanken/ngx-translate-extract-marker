@@ -1,12 +1,12 @@
 # ngx-translate-extract-marker
-This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjerg), but as far as I can tell the original library is unfortunately no longer being developed
+This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjerg), but as far as I can tell the original library is unfortunately no longer being developed.
 
 ## Installation
 `$ npm install @colsen1991/ngx-translate-extract-marker`
 
 ### Important notice
 The marker pipe and directive is not supported in Kim's ngx-translate-extract package.
-Please use this official fork [ngx-translate-extract](https://github.com/vendure-ecommerce/ngx-translate-extract) instead: `$ npm install @vendure/ngx-translate-extract`.
+Please use [Vendure's fork](https://github.com/vendure-ecommerce/ngx-translate-extract) instead: `$ npm install @vendure/ngx-translate-extract`.
 
 
 ## Mark strings for extraction using the marker function

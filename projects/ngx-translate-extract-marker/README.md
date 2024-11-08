@@ -6,7 +6,7 @@ This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjer
 
 ### Important notice
 The marker pipe and directive is not supported in Kim's ngx-translate-extract package.
-Please use [Vendure's](https://github.com/colsen1991/ngx-translate-extract) instead: `$ npm install @colsen1991/ngx-translate-extract`.
+Please use [Vendure's](https://github.com/vendure-ecommerce/ngx-translate-extract) instead: `$ npm install @colsen1991/ngx-translate-extract`.
 
 
 ## Mark strings for extraction using the marker function
@@ -96,7 +96,7 @@ export class YourModule {}
 ```
 
 ## ngx-translate-extract
-See [ngx-translate-extract](https://github.com/colsen1991/ngx-translate-extract) and [ngx-translate](https://github.com/ngx-translate/core) for more details.
+See [ngx-translate-extract](https://github.com/vendure-ecommerce/ngx-translate-extract) and [ngx-translate](https://github.com/ngx-translate/core) for more details.
 
 ## Credits
 Original library, idea and code: [@biesbjerg/ngx-translate-extract-marker](https://github.com/biesbjerg/ngx-translate-extract-marker) ❤️
